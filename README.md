@@ -1,8 +1,15 @@
-# Casper
+# Casper-jcc
+
+Extend default ghost theme and optimized for Chinese usage
 
 The default theme for [Ghost](http://github.com/tryghost/ghost/).
 
 To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
+
+##
+feature:
+- use prism for code highlight
+
 
 ## Copyright & License
 
