@@ -185,7 +185,7 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: "Merriweather", serif;
+    font-family: "Open Sans", 微軟正黑體, "Helvetica Neue", sans-serif;
     letter-spacing: 0.01rem;
     font-size: 1.8rem;
     line-height: 1.75em;
@@ -867,7 +867,7 @@ body.nav-opened .nav {
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
     margin: 10px 0 10px 0;
-    font-size: 5rem;
+    font-size: 3rem;
     letter-spacing: -1px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
@@ -879,7 +879,7 @@ body.nav-opened .nav {
     font-size: 2rem;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: "Merriweather", serif;
+    font-family: "Helvetica Neue", serif;
     letter-spacing: 0.01rem;
     color: rgba(255,255,255,0.8);
 }
@@ -952,6 +952,14 @@ body:not(.post-template) .post-title {
     margin: 0;
     font-size: 0.9em;
     line-height: 1.7em;
+}
+
+.post-excerpt a {
+    font-size: 0.8em;
+}
+
+.post-excerpt a:hover {
+    color: #0050cc;
 }
 
 .read-more {
@@ -1083,7 +1091,7 @@ body:not(.post-template) .post-title {
    text column to break out. */
 .post-content img {
     display: block;
-    max-width: 126%;
+    max-width: 100%;
     height: auto;
     padding: 0.6em 0;
     /* Centers an image by (1) pushing its left edge to the
@@ -1310,7 +1318,7 @@ body:not(.post-template) .post-title {
 /* Location, website, and link */
 .author-profile .author-meta {
     margin: 2rem 0;
-    font-family: "Merriweather", serif;
+    font-family: "Helvetica Neue", serif;
     letter-spacing: 0.01rem;
     font-size: 1.7rem;
 }
@@ -1475,7 +1483,6 @@ body:not(.post-template) .post-title {
 .content .embedPastebin {
     margin-bottom: 1.75em;
 }
-
 
 /* ==========================================================================
    9. Pagination - Tools to let you flick between pages

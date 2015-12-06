@@ -1,0 +1,16 @@
+pre[class*="language-"] {
+	border-radius: .5em;
+	/* border: .3em solid hsl(0, 0%, 33%); /* #282A2B */ */
+	box-shadow: 1px 1px .5em black inset;
+	margin: .5em 0;
+	overflow: auto;
+	padding: 1em;
+}
+
+code {  
+  white-space: pre-wrap;       /* CSS 3 */
+  white-space: -moz-pre-wrap;  /* Mozilla */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* IE 5.5+ */
+}

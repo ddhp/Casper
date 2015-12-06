@@ -1,0 +1,9 @@
+<nav class="pagination" role="navigation">
+  {{#if prev}}
+    <a class="newer-posts" href="{{page_url prev}}">&larr; 較新文章</a>
+  {{/if}}
+    <span class="page-number">第 {{page}} 頁 共 {{pages}} 頁</span>
+  {{#if next}}
+    <a class="older-posts" href="{{page_url next}}">之前文章 &rarr;</a>
+  {{/if}}
+</nav>
