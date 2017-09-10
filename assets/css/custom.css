@@ -1,0 +1,73 @@
+.post-full-content, .post-card-excerpt {
+  font-family: 'Helvetica', 'Arial', 'LiHei Pro', 'Heiti TC', 'Microsoft Jhenghei', 'PingFang TC', sans-serif;
+}
+
+.post-full-content p {
+  font-size: 90%;
+  line-height: 1.6em;
+}
+
+.post-full-content em {
+  font-size: 85%;
+}
+
+.post-full-content pre code {
+  font-size: 1.1em;
+}
+
+.post-full-content img, .post-full-content video {
+  max-width: 840px;
+}
+
+.post-full-header {
+  max-width: 920px;
+  text-align: left;
+}
+
+.post-full-meta {
+  justify-content: left;
+}
+
+.post-card-author {
+    text-transform: initial;
+}
+
+.post-card-published-at {
+  font-size: 0.8em;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: 'Consolas', 'Monaco', 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+p,
+ul,
+ol,
+dl,
+blockquote {
+  margin: 0 0 1.2em 0;
+}
+
+img, img[src$="#vertical-img"] {
+  max-height: 85vh;
+}
+
+pre[class*="language-"] {
+  border-radius: .5em;
+  border: none;
+  box-shadow: 1px 1px .5em black inset;
+  margin: .5em 0;
+  overflow: auto;
+  padding: 1em;
+}
+
+code {  
+  white-space: pre-wrap;       /* CSS 3 */
+  white-space: -moz-pre-wrap;  /* Mozilla */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* IE 5.5+ */
+}
