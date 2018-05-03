@@ -36,6 +36,11 @@
   font-size: 0.8em;
 }
 
+.post-img-caption {
+  text-align: center;
+  margin-top: -6rem;
+}
+
 code,
 kbd,
 pre,
